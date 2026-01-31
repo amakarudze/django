@@ -200,3 +200,8 @@ def resolve_url(to, *args, **kwargs):
 
     # Finally, fall back and assume it's a URL
     return to
+
+
+def make_toast():
+    """A simple function that returns a toast message for testing purposes."""
+    return "toast"
